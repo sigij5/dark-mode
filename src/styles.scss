@@ -148,6 +148,10 @@ h2 {
   font-size: 1.8rem;
 }
 
+h3{
+  font-size: 1.2rem;
+}
+
 h4 {
   font-size: 1.4rem;
 }
@@ -230,7 +234,7 @@ img {
   display: block;
   margin-left: 8px;
     min-width: 160px;
-text-align: left;
+text-align: center;
 }
 
 .coin__symbol {
@@ -243,7 +247,7 @@ text-align: left;
 }
 
 .dark-mode {
-  color: #fff;
+  color:greenyellow;
   background-color: #313843;
 
   .navbar {
