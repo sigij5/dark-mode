@@ -4,7 +4,7 @@ import {useLocalStorage} from './useLocalStorage'
 
 
 export const useDarkMode = () => {
-    const [storedValue, setStoredValue] = useLocalStorage('mode', '');
+    const [storedValue, setValue] = useLocalStorage('darkMode', false);
 
     useEffect(() => {
         if (storedValue === true) {
@@ -14,5 +14,5 @@ export const useDarkMode = () => {
         }
     }, [storedValue]);
 
-    return [storedValue, setStoredValue]
+    return [storedValue, setValue]
 }
